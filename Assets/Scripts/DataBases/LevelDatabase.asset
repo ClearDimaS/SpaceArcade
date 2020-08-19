@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b09a4b64700b3a40ab04994dcb7fda6, type: 3}
+  m_Name: LevelDatabase
+  m_EditorClassIdentifier: 
+  currentIndex: 15
+  elementsList:
+  - levelNumber: 1
+    levelStatus: 2
+    totalEnemies: 50
+  - levelNumber: 2
+    levelStatus: 2
+    totalEnemies: 30
+  - levelNumber: 3
+    levelStatus: 2
+    totalEnemies: 40
+  - levelNumber: 4
+    levelStatus: 2
+    totalEnemies: 60
+  - levelNumber: 5
+    levelStatus: 2
+    totalEnemies: 50
+  - levelNumber: 6
+    levelStatus: 1
+    totalEnemies: 50
+  - levelNumber: 7
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 8
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 9
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 10
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 11
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 12
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 13
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 14
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 15
+    levelStatus: 0
+    totalEnemies: 50
+  - levelNumber: 16
+    levelStatus: 0
+    totalEnemies: 50
+  currentElement:
+    levelNumber: 16
+    levelStatus: 0
+    totalEnemies: 50

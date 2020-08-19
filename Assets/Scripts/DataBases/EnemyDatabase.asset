@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f73a9a895d58d64a93e895fb00d6e16, type: 3}
+  m_Name: EnemyDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDataBase
+  currentIndex: 3
+  elementsList:
+  - mainSprite: {fileID: 21300000, guid: 417ace9a09db46244ae7401607fe0cc9, type: 3}
+    speed: 6
+    attack: 1
+  - mainSprite: {fileID: 21300000, guid: f2fc0af83db1b314faac8b55726698c0, type: 3}
+    speed: 7
+    attack: 1
+  - mainSprite: {fileID: 21300000, guid: 07ae00f977c4fa04bba0a0187816d679, type: 3}
+    speed: 8
+    attack: 1
+  - mainSprite: {fileID: 21300000, guid: c5fd8b3f64883ec46bf886cccf9286d6, type: 3}
+    speed: 9
+    attack: 1
+  currentElement:
+    mainSprite: {fileID: 21300000, guid: c5fd8b3f64883ec46bf886cccf9286d6, type: 3}
+    speed: 9
+    attack: 1
