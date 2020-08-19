@@ -6,13 +6,14 @@ using UnityEngine.UIElements;
 public class ScreenViewManager : MonoBehaviour
 {
     public static ScreenViewManager instance;
+    Vector2 res;
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
         }
-
+        res = new Vector2(Screen.width, Screen.height);
         screenBorders = new List<float> { 0, 0, 0, 0 };
         Screen.autorotateToPortrait = true;
         Screen.autorotateToPortraitUpsideDown = true;
@@ -27,7 +28,7 @@ public class ScreenViewManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (deviceOrientation != Screen.orientation) 
+        if (deviceOrientation != Screen.orientation || res.x != Screen.width || res.y != Screen.height) 
         {
             CalculateBorders();
             deviceOrientation = Screen.orientation;
