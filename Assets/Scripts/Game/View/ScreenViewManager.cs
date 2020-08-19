@@ -31,6 +31,7 @@ public class ScreenViewManager : MonoBehaviour
         if (deviceOrientation != Screen.orientation || res.x != Screen.width || res.y != Screen.height) 
         {
             CalculateBorders();
+            res = new Vector2(Screen.width, Screen.height);
             deviceOrientation = Screen.orientation;
         }
     }
